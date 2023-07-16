@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id = "home">
+        <a href="#video">ไปที่หัวข้อ 1 | การเล่นวิดีโอ</a><br>
+
+        <a href="#sound">ไปที่หัวข้อ 2 | การเล่นเสียง</a><br>
+
+        <a href="#form">ไปที่หัวข้อ 3 | การกรอกข้อมูล</a><br>
+
+        <a href="#table">ไปที่หัวข้อ 4 | ตารางเรียน</a><br>
+
+        <a href="#profile">ผู้จัดทำ</a><br>
+    </div>
+
+    <div id ="video" align = "center">
+        <h1>หัวข้อที่ 1</h1>
+        <div>
+            <video controls width="300px" height="300px" align = "center">
+                <source src="video/vid1.mp4" type="video/mp4">    
+            </video>
+        </div>
+        <a href="#home">กลับหน้าแรก</a>
+    </div>
+
+    <hr>
+
+    <div id = "sound" align = "center">
+        <h1>หัวข้อที่ 2</h1>
+        <div >
+            <audio controls >
+                <source src="sound/sound1.mp3" type="audio/mp3">  
+            </audio>
+        </div>
+        <a href="#home">กลับหน้าแรก</a>
+    </div>
+
+    <hr>
+
+    <div id = "form">
+        <h1 align = "center">หัวข้อที่ 3</h1>
+        <div>
+            <form>
+                <div>
+                    <div>
+                        <label for="name"><b>ชื่อ นามสกุล :</b></label>
+                        <input type="name" id="name" placeholder="ใส่ชื่อและนามสกุล">
+                    </div>
+
+                    <div>
+                        <label for="edu"> <b> กำลังศึกษาอยู่ระดับชั้นมัธยมศึกษาปีที่ :</b></label>
+                        <select>
+                            <option value="1">ม.1</option>
+                            <option value="2">ม.2</option>
+                            <option value="3">ม.3</option>
+                            <option value="4">ม.4</option>
+                            <option value="5">ม.5</option>
+                            <option value="6">ม.6</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="gender"><b>เพศ :</b></label>
+                        <input type="radio" name="gender">เพศชาย
+                        <input type="radio" name="gender">เพศหญิง
+                        <input type="radio" name="gender">อื่นๆ 
+                    </div>
+
+                    <div>
+                        <label for="username"><b>Username :</b></label>
+                        <input type="username" placeholder="username">
+                    </div>
+
+                    <div>
+                        <label for="password"><b>Password :</b></label>
+                        <input type="password">
+                    </div>
+
+                    <div>
+                        <button>Summit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <a href="#home">กลับหน้าแรก</a>
+    </div>
+
+    <hr>
+
+    <div id = "table" align = "center">
+        <h1>หัวข้อที่ 4</h1>
+        <table border="2">
+            <thead>
+                <th>คาบที่</th>
+                <th>0</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+            </thead>
+
+            <tr >
+                <th>เวลา</th>
+                <th>07.30-8.20</th>
+                <th>08.20-9.10</th>
+                <th>09.10-10.00</th>
+                <th>10.00-10.50</th>
+                <th>10.50-11.40</th>
+                <th>11.40-12.30</th>
+                <th>12.30-13.20</th>
+                <th>13.20-14.10</th>
+                <th>14.10-15.00</th>
+                <th>15.00-15.50</th>
+                <th>15.50-16.40</th>
+                <th>16.40-17.30</th>
+            </tr>
+
+            <tr>
+                <th>จันทร์</th>
+                <th>โฮมรูม</th>
+                <th>ศิลปะ</th>
+                <th>พละ</th>
+                <th>คณิตเพิ่มเติม</th>
+                <th>อังกฤษ</th>
+                <th>ไทย</th>
+                <th>พัก</th>
+                <th>ฟิสิกส์</th>
+                <th>อังกฤษ</th>
+                <th>จิตอาสา</th>
+                <th></th>
+                <th></th>
+            </tr>
+
+            <tr>
+                <th>อังคาร</th>
+                <th>โฮมรูม</th>
+                <th>อังกฤษ</th>
+                <th>แนะแนว</th>
+                <th>สังคม</th>
+                <th>เคมี</th>
+                <th>เคมี</th>
+                <th>พัก</th>
+                <th>ชีวะ</th>
+                <th>ชีวะ</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+
+            <tr>
+                <th>พุธ</th>
+                <th>โฮมรูม</th>
+                <th>ฟิสิกส์</th>
+                <th>ฟิสิกส์</th>
+                <th>ชีวะ</th>
+                <th>คณิตพื้นฐาน</th>
+                <th>คณิตเพิ่มเติม</th>
+                <th>พัก</th>
+                <th>IS</th>
+                <th>IS</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+
+            <tr>
+                <th>พฤหัสบดี</th>
+                <th>โฮมรูม</th>
+                <th>วิถีพุทธ</th>
+                <th>สังคม</th>
+                <th>อังกฤษ</th>
+                <th>เคมี</th>
+                <th>เคมี</th>
+                <th>พัก</th>
+                <th>เสรีภาษา</th>
+                <th>คณิตเพิ่มเติม</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+
+            <tr>
+                <th>ศุกร์</th>
+                <th>โฮมรูม</th>
+                <th>คอม</th>
+                <th>คอม</th>
+                <th>ฟิสิกส์</th>
+                <th>คณิตเพิ่มเติม</th>
+                <th>คณิตพื้นฐาน</th>
+                <th>พัก</th>
+                <th>ไทย</th>
+                <th>อังกฤษ</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </table>
+        <a href="#home">กลับหน้าแรก</a>
+    </div>
+
+    <hr>
+
+    <div id ="profile">
+        <p><i>ผู้จัดทำ : นายปรัญชัย เพชรแสงโรจน์ 510-17</i></p> 
+        <a href="https://www.facebook.com/parunchai.petchsangroj" target="_blank">Facebook</a> 
+        <a href="https://www.instagram.com/parun.jai/" target="_blank">Instragram</a> 
+        <a href="#home">กลับหน้าแรก</a>
+    </div>
+
+
+</body>
+</html>
